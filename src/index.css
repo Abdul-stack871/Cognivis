@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-base: #0B0F0E;
+    --bg-surface: #111715;
+    --bg-elevated: #17201D;
+    --border-dim: #1E2B26;
+    --border-bright: #283832;
+    --text-primary: #F7F4EB;
+    --text-secondary: #D5D1C5;
+    --text-muted: #8A948E;
+  }
+
+  body {
+    background-color: #0B0F0E;
+    color: #F7F4EB;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: 'Playfair Display', Georgia, serif;
+    letter-spacing: -0.015em;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0B0F0E;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1E2B26;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #283832;
+}
+
+/* Atmospheric visual layer */
+.observatory-bg {
+  background-color: #0B0F0E;
+  background-image: 
+    radial-gradient(ellipse 70% 50% at 50% -10%, rgba(16, 185, 129, 0.08), transparent 70%),
+    radial-gradient(circle 350px at 85% 20%, rgba(217, 119, 6, 0.05), transparent 80%),
+    radial-gradient(circle 400px at 15% 80%, rgba(13, 148, 136, 0.05), transparent 80%);
+}
+
+.observatory-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+}
+
+.glow-card-emerald {
+  box-shadow: 0 0 20px -5px rgba(16, 185, 129, 0.15), inset 0 1px 0 0 rgba(255, 255, 255, 0.05);
+}
+
+.glow-card-amber {
+  box-shadow: 0 0 20px -5px rgba(217, 119, 6, 0.15), inset 0 1px 0 0 rgba(255, 255, 255, 0.05);
+}
+
+/* React Flow styling overrides for Cognivis Dark Obsidian theme */
+.react-flow__background {
+  background-color: #0B0F0E !important;
+}
+
+.react-flow__controls {
+  background: #111715 !important;
+  border: 1px solid #1E2B26 !important;
+  border-radius: 8px !important;
+  overflow: hidden;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5) !important;
+}
+
+.react-flow__controls-button {
+  background: #111715 !important;
+  border-bottom: 1px solid #1E2B26 !important;
+  fill: #F7F4EB !important;
+  color: #F7F4EB !important;
+}
+
+.react-flow__controls-button:hover {
+  background: #17201D !important;
+}
+
+.react-flow__minimap {
+  background-color: #111715 !important;
+  border: 1px solid #1E2B26 !important;
+  border-radius: 8px !important;
+  overflow: hidden;
+}
+
+.react-flow__edge-path {
+  stroke: #283832 !important;
+  stroke-width: 2 !important;
+}
+
+.react-flow__edge.selected .react-flow__edge-path {
+  stroke: #10B981 !important;
+  stroke-width: 2.5 !important;
+}
+
+.react-flow__handle {
+  background: #10B981 !important;
+  border: 2px solid #0B0F0E !important;
+  width: 9px !important;
+  height: 9px !important;
+}

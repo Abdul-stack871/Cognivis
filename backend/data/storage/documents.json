@@ -1,0 +1,113 @@
+[
+  {
+    "id": "doc-1",
+    "title": "Multimodal Topological RAG Specification",
+    "filename": "Research_Paper.pdf",
+    "type": "PDF",
+    "size": "4.2 MB",
+    "uploadedAt": "2026-03-15T10:30:00Z",
+    "chunksCount": 42,
+    "status": "ready",
+    "tags": [
+      "Architecture",
+      "Topology",
+      "Neural"
+    ],
+    "modalities": [
+      "Text",
+      "Visuals",
+      "Equations"
+    ]
+  },
+  {
+    "id": "doc-2",
+    "title": "System Design & Distributed Ingestion",
+    "filename": "System_Design.docx",
+    "type": "DOCX",
+    "size": "1.8 MB",
+    "uploadedAt": "2026-03-14T14:15:00Z",
+    "chunksCount": 28,
+    "status": "ready",
+    "tags": [
+      "Infrastructure",
+      "Ingestion"
+    ],
+    "modalities": [
+      "Text",
+      "Diagrams"
+    ]
+  },
+  {
+    "id": "doc-3",
+    "title": "Evaluation Benchmarks & Latency Profiling",
+    "filename": "Benchmark_Report.pdf",
+    "type": "PDF",
+    "size": "3.1 MB",
+    "uploadedAt": "2026-03-12T09:00:00Z",
+    "chunksCount": 35,
+    "status": "ready",
+    "tags": [
+      "Metrics",
+      "Evaluation"
+    ],
+    "modalities": [
+      "Text",
+      "Tables",
+      "Visuals"
+    ]
+  },
+  {
+    "id": "doc-45c54a86",
+    "title": "Cognivis Sample Test Document",
+    "filename": "Cognivis_Sample_Test_Document.pdf",
+    "type": "PDF",
+    "size": "0.1 MB",
+    "uploadedAt": "2026-03-21T10:00:00Z",
+    "chunksCount": 4,
+    "status": "ready",
+    "tags": [
+      "Ingested",
+      "PDF"
+    ],
+    "modalities": [
+      "Text",
+      "Visuals"
+    ]
+  },
+  {
+    "id": "doc-b19525f7",
+    "title": "Cognivis Sample Test Document",
+    "filename": "Cognivis_Sample_Test_Document.pdf",
+    "type": "PDF",
+    "size": "0.1 MB",
+    "uploadedAt": "2026-03-21T10:00:00Z",
+    "chunksCount": 4,
+    "status": "ready",
+    "tags": [
+      "Ingested",
+      "PDF"
+    ],
+    "modalities": [
+      "Text",
+      "Visuals"
+    ]
+  },
+  {
+    "id": "doc-543df4e0",
+    "title": "Cognivis Sample Test Document",
+    "filename": "Cognivis_Sample_Test_Document.pdf",
+    "type": "PDF",
+    "size": "0.1 MB",
+    "uploadedAt": "2026-03-21T10:00:00Z",
+    "chunksCount": 4,
+    "status": "ready",
+    "tags": [
+      "Ingested",
+      "PDF"
+    ],
+    "modalities": [
+      "Text",
+      "Visuals"
+    ]
+  }
+]
